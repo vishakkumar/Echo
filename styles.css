@@ -1,0 +1,89 @@
+/* *{
+    margin: 0;
+    padding: 0;
+}  */
+   /* style="background-color:#081158; color: #FBB244; */
+    .button:hover {
+        transition-duration: 0.5s !important;
+        background-color: #ffffff !important ; 
+        
+        color:  #000000 !important;
+    }
+    .button1:hover {
+        transition-duration: 1s !important;
+        background-color: #ffffff !important ; 
+        color:  #000000 !important;
+    }
+    .button2:hover {
+        transition-duration: 1s !important;
+        background-color:#081158 !important ; 
+        color:white !important;
+    }
+   .nav_but {
+        font-size: 11pt;
+    }
+    .top_main{
+    padding: 2px;
+    margin: 1px;
+    height: 190px;
+    }
+    .slide_para{
+        text-align: left;
+    }
+
+@media only screen and (min-width:320px) and (max-width:481px){
+            .heading{
+                font-size: 26px !important;
+                font-weight: 700 !important;
+                width: 250px!important;
+                
+            }
+            .head2{
+                font-size: 13px !important;
+                width: 350px!important;
+                /* font-weight: 300 !important;   */
+                text-align:left !important;             
+            }
+            .feat{
+                width: 400px!important;
+                font-size: 13px!important;   
+            }
+            .heading{
+                font-size: 25px!important;   
+            }
+            .cardsize{
+                width: 100% !important;
+                left: 0!important;
+            }
+            .img2{
+                height: 280px !important;
+            }
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+    .heading{
+        font-size: 30px !important;
+        font-weight: 700 !important;
+        width: 600px!important;
+    }
+    .head2{
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        width: 600px!important;
+    }
+    .subhead3{
+        width: 400px!important;
+    }
+    .img1{
+        width: 800px!important;
+    }
+
+    .feat{
+        width: 600px!important;
+        font-size: 14px!important;   
+    }
+    .cardsize{
+        width: 100% !important;
+        left: 0!important;
+    }
+
+}

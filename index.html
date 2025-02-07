@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ECHO DEMO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+      .swiper {
+          width: 100%;
+          height: 100%;
+      }
+
+      .swiper-slide {
+          /* text-align: center; */
+          font-size: 17px;
+          /* background-color: #D9D9D9; */
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          /* border-radius: 15px; */
+          height: fit-content;
+      }
+
+      .swiper-slide img {
+          width: 90%;
+          height: 50%;
+          border-radius: 15px;
+          object-fit: cover;
+          margin: 10px;
+      }
+
+      .swiper-button-prev,
+      .swiper-button-next {
+          color: rgba(128, 128, 128, 0.74)!important;
+          margin-top: 50px;
+      }
+
+      .card2 {
+          border: none;
+          /* background-color: #D9D9D9; */
+      }
+
+      .card-body2 {
+          text-align: start;
+          border-radius: 15px;
+
+      }
+      .card_text{
+        font-size: 16px;
+      }
+  </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-fluid top_main " >
+    <nav class="navbar navbar-expand-lg mt-3">
+        <div class="container">
+            <nav class="navbar ">
+                <div class="container">
+                  <a class="navbar-brand" href="./index.html">
+                    <img src="https://preview.colorlib.com/theme/echo/images/logo.png" >
+                  </a>
+                </div>
+            </nav>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto ">
+                <li class="nav-item mx-2 ">
+                  <a class="nav-link active nav_but" aria-current="page" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown mx-2 ">
+                  <a class="nav-link dropdown-toggle nav_but" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item nav_but" href="./index.html">Menu One</a></li>
+                    <li><a class="dropdown-item nav_but" href="./index.html">Menu Two</a></li>
+                    <li><a class="dropdown-item nav_but" href="./index.html">Menu Three</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item mx-2 ">
+                  <a class="nav-link nav_but" href="./index.html">About</a>
+                </li>
+                <li class="nav-item mx-2 ">
+                  <a class="nav-link nav_but" href="./index.html">Services</a>
+                </li>
+                <li class="nav-item mx-2 ">
+                  <a class="nav-link nav_but" href="./index.html">FAQ</a>
+                </li>
+                <li class="nav-item mx-2 ">
+                  <a class="nav-link nav_but" href="./index.html">Contact Us</a>
+                </li>
+                <li class="nav-item button">
+                  <button type="button" class="btn style rounded-pill button" 
+                  style=" background-color :#081158; 
+                  color: #FBB244;    
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  font-size:15px; 
+                  font-weight: 400;
+                  height:40px; 
+                  width: 145px;
+                  padding: 6px 20px;
+                  border: 2px solid rgb(221, 216, 216);
+                  border-radius: 30px;
+                  ">Download now</button>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+      </div>
+  <!-- <div class="parent" > -->
+    <div class="container-fluid secondrow " >          
+      <div class="row  ">
+        <div class="col-12 col-lg-6 col-md-6  " >
+          <div class=" subhead"
+            style="color:#FBB244;
+            background-color: rgba(251, 178, 68, 0.2);
+            display: inline-block;
+            padding: 5px 20px;
+            border-radius: 30px;
+            font-size: 10px;
+            font-weight: 700;
+            font-family: Open Sans, sans-serif"
+            >WELCOME TO OUR SITE</div>
+            <h1 class="heading  mt-2" 
+            style="
+            font-size: 40px;
+            font-weight: 700;
+            font-family: Montserrat, sans-serif;
+            color: #081158;
+            ">Expert SEO, SEM Services in London</h1>
+            <p class="head2" style="color: rgb(179, 176, 176);height: 120px; width: 450px;font-size: 15px; font-family:'Open Sans',sans-serif;" >Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <button type="button " class="btn style rounded-pill button1 " 
+            style="
+            height: 50px; 
+            width: 160px;
+            margin: 10px;
+            border: 1px solid #081158;
+            font-size:17px; 
+            font-weight:450; 
+            background-color :#081158;
+            color: white;
+            ">How we work</button>
+            <button type="button" class="btn style rounded-pill button2" 
+            style="height: 50px; 
+            width: 140px;
+            font-size:17px;                   
+            font-weight:450; 
+            color:#081158; 
+            border: 1px solid #081158;
+            ">Contact us</button>
+          </div>
+          <div class="col-lg-6 img1 mx-auto" > 
+                <img src="https://preview.colorlib.com/theme/echo/images/hero_1.png" class="rounded mx-auto d-block" alt="..." width="100%" height="400px">
+          </div>
+        </div>
+    </div>
+  <!-- </div> -->
+  <div class="container thirdrow mt-5" style= " height: 400px; display: flex; justify-content: center; align-items:center; flex-direction: column;">     
+    <div class="subhead2"
+      style="color:#FBB244;
+      background-color: rgba(251, 178, 68, 0.2);
+      height: 25px;
+      width: 90px;
+      padding: 5px 20px;
+      border-radius: 30px;
+      font-size: 10px;
+      font-weight: 670;
+      ">FEATURES</div>
+    <div class="subhead3 text-center " style="width: 450px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+      <h1 class="heading " 
+      style="font-size: 40px;                       
+      font-weight: 700;
+      color: #081158;
+      ">Our Features</h1>
+      <p class="text-center feat" style="color: rgb(179, 176, 176);  font-weight: 500; font-size: 15px; font-family:'Open Sans',sans-serif;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>            
+    </div>
+  </div>
+
+  <div class="container " >
+    <div class="row m-0 p-0">
+        <div class="col-12 col-lg-4 col-md-12 card1" style="display: flex; justify-content: center;align-items: center; flex-direction: column; height: 300px;">
+          <div class="card11" style="position: relative;">
+          <i class="fa-solid fa-rocket fa-3x"></i>
+          <div class="card12" style=" z-index:-1;left: 40%;bottom: 40%; position: absolute; height: 50px; width: 50px; border-radius: 50%; background-color: #fbb24470;">
+          </div>
+        </div>        
+          <div class="card" style=" display: flex; justify-content: center; align-items: center;border: 0;">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 18px;font-weight: 700;color: #000; ">Marketing Analysis</h5>
+              <p class="card-text text-center"  style="font-family: Montserrat, sans-serif;font-size: 15px;width: 250px; color: rgb(179, 176, 176);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+          </div>
+        </div>
+      
+      <div class="col-12 col-lg-4 col-md-12" style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 300px;" >
+        <div card="card21" style="position: relative;">
+          <i class="fa-solid fa-link fa-3x"></i>
+          <div class="card22" style="height: 50px; width: 50px; border-radius: 50%; position: absolute; left: 40%; bottom: 40%; background-color: #fbb24479; z-index:-1;"></div>
+        </div>          
+          <div class="card" style="  display: flex; justify-content: center; align-items: center;border: 0;">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 18px;font-weight: 700;color: #000;    ">Digital Marketing</h5>
+              <p class="card-text" style="color: rgb(179, 176, 176);font-family: Montserrat, sans-serif;font-size: 15px;width: 250px; ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-4 col-md-12" style="display: flex; justify-content: center; align-items: center; flex-direction: column; height: 300px;" >
+        <div card="card31" style="position: relative;">
+          <i class="fa-solid fa-trophy fa-3x"></i>
+          <div class="card32" style="height: 50px; width: 50px; border-radius: 50%; position: absolute; left: 40%; bottom: 40%; background-color: #fbb24479; z-index:-1;"></div>
+        </div>          
+          <div class="card" style="  display: flex; justify-content: center; align-items: center;border: 0;">
+            <div class="card-body" style="text-align: center;">
+              <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 18px;font-weight: 700;color: #000;    ">Digital Marketing</h5>
+              <p class="card-text" style="color: rgb(179, 176, 176);font-family: Montserrat, sans-serif;font-size: 15px;width: 250px; ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="height: 200px;"></div>
+
+
+<div class="container" style="padding: 30px;">
+  <div class="row">
+    <div class="col-12 col-lg-7" >
+      <img src="https://preview.colorlib.com/theme/echo/images/about_1.png" class="rounded mx-auto d-block img2" alt="..." width="100%" height="410px" >
+    </div>
+    <div class="col-12 col-lg-1" ></div>
+    <div class="col-12 col-lg-4" >
+      <div class=" subhead"
+      style="color:#FBB244;
+      background-color: rgba(251, 178, 68, 0.2);
+      height: 25px;
+      width: 90px;
+      padding: 5px 20px;
+      border-radius: 30px;
+      font-size: 10px;
+      font-weight: 670;"
+      >ABOUT US
+      </div>
+      <h1 class="heading mt-2  w-50" 
+            style="
+            font-size: 40px;
+            font-weight: 700;
+            font-family: Montserrat, sans-serif;
+            color: #081158;
+            ">Why our agency?</h1>
+             <p class="" style="text-align: left; color: rgb(179, 176, 176);font-size: 15px; font-family:'Open Sans',sans-serif;" >Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.<br>
+              <br>
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+              <div class="text-left" style="display: flex; flex-direction: column; color: rgb(179, 176, 176);font-size: 15px; font-family:'Open Sans',sans-serif;" >
+                <div>
+                  <i class="fa-solid fa-check" ></i>
+                   <span style="padding: 10px;">Behind the word mountains</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-check"></i>
+                  <span style="padding: 10px;">Behind the word mountains</span>
+                </div>
+                <div>
+                  <i class="fa-solid fa-check"></i>
+                  <span style="padding: 10px;">Behind the word mountains</span>
+                </div>
+            </div>
+            <div>
+              <button type="button " class="btn style rounded-pill button1 " 
+              style="
+              height: 50px; 
+              width: 130px;
+              margin: 10px;
+              border: 1px solid #081158;
+              font-size:17px; 
+              font-weight:450; 
+              background-color :#081158;
+              color: white;
+              ">About Us</button>
+  
+            </div>
+    </div>
+</div>
+</div>
+<div class="" style="height: 200px;"></div>
+<div class="container" style=" display: flex; flex-direction: column; justify-content: center; align-items: center;">
+    <div class=""
+    style="color:#FBB244;
+    background-color: rgba(251, 178, 68, 0.2);
+    height: 25px;
+    width: 90px;
+    padding: 5px 20px;
+    border-radius: 30px;
+    font-size: 10px;
+    font-weight: 670;
+    ">SERVICES  </div>
+    <div>
+      <h1 class="heading mt-2 "style="font-size: 40px;font-weight: 700;font-family: Montserrat, sans-serif;color: #081158;
+    ">Our Services</h1>
+    </div>
+</div>
+    <div class="container" >
+      <div class="row m-0 p-0">
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-3 "  >
+          <div class="card  mx-auto cardsize" style=" width: 400px; left: 50px;">
+            <div class="card-body">
+                      <div class="row">
+                        <div class="col-3">
+                          <i class="fa-solid fa-shield-halved fa-3x " style="color: rgb(122, 122, 122); z-index:1; position: relative;" ></i>
+                          <div class="" style=" position: absolute; bottom: 65%; left: 3%;  height: 40px; width: 40px; border-radius: 50%; background-color: #fbb24470;">
+                          </div>
+                        </div>
+                      <div class="col-9">
+                        <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 16px;font-weight: 700;color: #000; ">Marketing Analysis</h5>
+                        <p class="card-text"  style=" text-align: left; font-family: Montserrat, sans-serif;font-size: 14px;width: 250px; color: rgb(179, 176, 176);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>          
+                      </div>  
+                    </div>      
+              </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-3 "  >
+          <div class="card   cardsize" style=" width: 400px; ">
+            <div class="card-body">
+                      <div class="row">
+                        <div class="col-3">
+                          <i class="fa-solid fa-rocket fa-3x " style="color: rgb(122, 122, 122); z-index:1; position: relative;" ></i>
+                          <div class="" style=" position: absolute; bottom: 65%; left: 3%;  height: 40px; width: 40px; border-radius: 50%; background-color: #fbb24470;">
+                          </div>
+                        </div>
+                      <div class="col-9">
+                        <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 16px;font-weight: 700;color: #000; ">Marketing Analysis</h5>
+                        <p class="card-text"  style=" text-align: left; font-family: Montserrat, sans-serif;font-size: 14px;width: 250px; color: rgb(179, 176, 176);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>          
+                      </div>  
+                    </div>      
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-3 "  >
+          <div class="card  mx-auto cardsize" style=" width: 400px; left: 50px;">
+            <div class="card-body">
+                      <div class="row">
+                        <div class="col-3">
+                          <i class="fa-solid fa-bullhorn fa-3x " style="color: rgb(122, 122, 122); z-index:1; position: relative;" ></i>
+                          <div class="" style=" position: absolute; bottom: 65%; left: 3%;  height: 40px; width: 40px; border-radius: 50%; background-color: #fbb24470;">
+                          </div>
+                        </div>
+                      <div class="col-9">
+                        <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 16px;font-weight: 700;color: #000; ">Marketing Analysis</h5>
+                        <p class="card-text"  style=" text-align: left; font-family: Montserrat, sans-serif;font-size: 14px;width: 250px; color: rgb(179, 176, 176);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>          
+                      </div>  
+                    </div>      
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-3 "  >
+          <div class="card   cardsize" style=" width: 400px; ">
+            <div class="card-body">
+                      <div class="row">
+                        <div class="col-3">
+                          <i class="fa-solid fa-link fa-3x " style="color: rgb(122, 122, 122);z-index:1; position: relative;" ></i>
+                          <div class="" style=" position: absolute; bottom: 65%; left: 3%;  height: 40px; width: 40px; border-radius: 50%; background-color: #fbb24470;">
+                          </div>
+                        </div>
+                      <div class="col-9">
+                        <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 16px;font-weight: 700;color: #000; ">Marketing Analysis</h5>
+                        <p class="card-text"  style=" text-align: left; font-family: Montserrat, sans-serif;font-size: 14px;width: 250px; color: rgb(179, 176, 176);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>          
+                      </div>  
+                    </div>      
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-3 "  >
+          <div class="card  mx-auto cardsize" style=" width: 400px; left: 50px;">
+            <div class="card-body">
+                      <div class="row">
+                        <div class="col-3">
+                          <i class="fa-solid fa-scroll fa-3x " style="color: rgb(122, 122, 122); z-index:1; position: relative;" ></i>
+                          <div class="" style=" position: absolute; bottom: 65%; left: 3%;  height: 40px; width: 40px; border-radius: 50%; background-color: #fbb24470;">
+                          </div>
+                        </div>
+                      <div class="col-9">
+                        <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 16px;font-weight: 700;color: #000; ">Marketing Analysis</h5>
+                        <p class="card-text"  style=" text-align: left; font-family: Montserrat, sans-serif;font-size: 14px;width: 250px; color: rgb(179, 176, 176);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>          
+                      </div>  
+                    </div>      
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6 col-md-12 col-sm-12 mt-3 "  >
+          <div class="card   cardsize" style="width:400px;  ">
+            <div class="card-body">
+                      <div class="row">
+                        <div class="col-3">
+                          <i class="fa-solid fa-trophy fa-3x " style="color: rgb(122, 122, 122); z-index:1; position: relative;" ></i>
+                          <div class="" style=" position: absolute; bottom: 65%; left: 3%;  height: 40px; width: 40px; border-radius: 50%; background-color: #fbb24470;">
+                          </div>
+                        </div>
+                      <div class="col-9">
+                        <h5 class="card-title" style="font-family: Montserrat, sans-serif;font-size: 16px;font-weight: 700;color: #000; ">Marketing Analysis</h5>
+                        <p class="card-text"  style=" text-align: left; font-family: Montserrat, sans-serif;font-size: 14px;width: 250px; color: rgb(179, 176, 176);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>          
+                      </div>  
+                    </div>      
+              </div>
+            </div>
+        </div>
+        
+
+      </div> 
+    </div> 
+    <div class="" style="height: 50px;"> </div>
+    <div class="container thirdrow mt-5" style= " height: 400px; display: flex; justify-content: center; align-items:center; flex-direction: column;">     
+      <div class="subhead2"
+        style="color:#FBB244;
+        background-color: rgba(251, 178, 68, 0.2);
+        height: 25px;
+        width: 120px;
+        padding: 5px 20px;
+        border-radius: 30px;
+        font-size: 10px;
+        font-weight: 670;
+        ">TESTIMONIALS</div>
+      <div class="subhead3 text-center cardsize" style="width: 800px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+        <h1 class="heading " 
+        style="font-size: 40px;                       
+        font-weight: 700;
+        color: #081158;
+        ">Testimonials</h1>
+        <p class="text-center fea " style="color: rgb(179, 176, 176);  font-weight: 500; font-size: 16px; font-family:'Open Sans',sans-serif;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>            
+      </div>
+    </div>
+    <div class="container">
+      <div class="container mt-5">
+        <div class="swiper mySwiper1">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <!-- <img src="https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg" alt=""> -->
+                    <p class="slide_para">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+                    <div class="card card2">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title card_text" >Full Stack <br>Web Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- <img src="https://wallpaper.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg" alt=""> -->
+                    <p class="slide_para">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+
+                    <div class="card card2">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title card_text">Full Stack <br>Mobile Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- <img src="https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg" alt=""> -->
+                    <p>“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+
+                    <div class="card card2">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title card_text">Full Stack <br>Web Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- <img src="https://wallpaper.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg" alt=""> -->
+                    <p class="slide_para">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+
+                    <div class="card card2">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title card_text">Full Stack <br>Mobile Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- <img src="https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg" alt=""> -->
+                    <p class="slide_para">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+
+                    <div class="card card2">
+                        <div class="card-body">
+                            <h5 class="card-title card_text">Full Stack <br>Web Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- <img src="https://wallpaper.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg" alt=""> -->
+                    <p class="slide_para">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+                    <div class="card card2">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title card_text">Full Stack <br>Mobile Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                  <!-- <img src="https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg" alt=""> -->
+                  <p class="slide_para">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+
+                  <div class="card card2">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title card_text">Full Stack <br>Web Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <!-- <img src="https://wallpaper.forfun.com/fetch/62/624e27fde335d49e2dd3c6b75c6027a3.jpeg" alt=""> -->
+                    <p class="slide_para">“Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.”</p>
+                    <div class="card card2">
+                        <div class="card-body card-body2">
+                            <h5 class="card-title card_text">Full Stack <br>Mobile Development</h5>
+                            <p class="card-text"><i class="fa-solid fa-clock-rotate-left"></i> 3 Months</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more swiper-slides as needed -->
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    </div>
+    <div style="height: 100px;"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12 mb-4">
+          <h5 style="font-size: 15px;">About Cololib</h5>
+          <p style="color: rgb(155, 155, 155);">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <div style="display: flex; ">
+            <i class="fa-brands fa-twitter" style="display: flex;justify-content: center; align-items: center;  background-color: #081158; color: white; border-radius: 50%; height: 30px; width: 30px; "></i>
+            <i class="fa-brands fa-instagram" style="display: flex;justify-content: center; align-items: center;  background-color: #081158; color: white; border-radius: 50%; height: 30px; width: 30px; "></i>
+            <i class="fa-brands fa-facebook-f" style="display: flex;justify-content: center; align-items: center;  background-color: #081158; color: white; border-radius: 50%; height: 30px; width: 30px; "></i>  
+          </div>
+        </div>
+        <div class="col-12 col-lg-2 col-md-4 col-sm-12 ">
+          <h5 style="font-size: 15px; ">Pages</h5>
+          <p  style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;">Blog</p>
+          <p  style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;">About</p> 
+          <p  style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;">Contact</p>  
+        </div>
+        <div class="col-12 col-lg-1 col-md-4 col-sm-12">
+          <h5 style="font-size: 15px;">Resources</h5>
+          <p  style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;">Blog</p>
+          <p  style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;">About</p> 
+          <p  style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;">Contact</p>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 col-sm-12 mx-auto">
+          <h5 style="font-size: 15px;">Contact</h5>
+          <p style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;">
+            <i class="fa-solid fa-envelope "></i> info@Cololib </p>
+          <p style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;"><i class="fa-solid fa-phone" style="color: #ababab;"></i> +1 222 212 3819</p>
+          <p style="color: rgb(155, 155, 155); font-size: 14px; text-align: left;"><i class="fa-solid fa-location-dot" style="color: #949494;"></i> 43 Raymouth Rd. Baltemoer, London 3910</p>
+        </div>
+        </div>
+      </div>
+      <div class="container" style="justify-content: center;align-content: center; text-align: center; height: 300px;">
+        <p>
+          Copyright ©2024 All rights reserved | This template is made with <i class="fa-solid fa-heart" style="color: #ff0505;"></i> by Colorlib
+        </p>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        function initializeSwiper() {
+            var swiper1 = new Swiper(".mySwiper1", {
+                slidesPerView: 'auto',
+                spaceBetween: 10,
+                slidesPerGroup: 1,
+                loop: true,
+                loopFillGroupWithBlank: true,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+                autoplay: {
+                    delay: 1500,
+                    disableOnInteraction: false,
+                },
+                effect: 'slide',
+                speed: 1500,
+                breakpoints: {
+                    1024: {
+                        slidesPerView: 4,
+                    },
+                    480: {
+                        slidesPerView: 3,
+                    },
+                    425: {
+                        slidesPerView: 2,
+                    },
+                }
+            });
+        }
+
+        initializeSwiper();
+    </script>
+</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
